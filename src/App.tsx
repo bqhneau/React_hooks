@@ -1,12 +1,12 @@
 import React from 'react';
-import {Timer} from '@/components/useRef/index'
+import { Father } from '@/components/forwardRef与useImperativeHandle/index'
 
 // React.FC 表示类型为函数组件
 const App:React.FC = () => {
 
   return (
     <>
-      <Timer />
+      <Father />
     </>
   )
 }
